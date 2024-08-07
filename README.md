@@ -1,10 +1,10 @@
-# 作业板
+# 作业板快速部署
 ![](img.png)
 项目地址[点我跳转](https://github.com/EnderWolf006/HomeworkBoard)
 
 ## 食用说明
-以下为在Windows系统(Windows Server)下的快速使用方法
-本项目使用难度可能略高，如有疑问可通过邮箱联系作者 `Enderwolf006@gmail.com`
+以下为在Windows系统(Windows Server)下的快速部署方法
+本项目部署难度可能略高，如有疑问可通过邮箱联系作者 `Enderwolf006@gmail.com`
 
 #### 准备文件
 - 下载右侧Releases中Latest版本的`Start-Deployment.zip`文件
@@ -17,7 +17,7 @@
 - 安装好Python后，双击运行解压后得到的 `install Flask.cmd`文件
 
 #### 部署服务端
-将解压后得到的`startClient.cmd`、`StartSchool.cmd`、`start-APIServer.cmd` 移动到目录下
+将解压后得到的`startClient.cmd`、`StartSchool.cmd`、`start-APIServer.cmd` 文件移动到目录下
 - 将`startClient.cmd`文件移动到 `SchoolProject-release` 所在目录下双击运行
 - 将`StartSchool.cmd`文件移动到 `ClientProject-release` 所在目录下双击运行
 - 将`start-APIServer.cmd`文件移动到 `APIServer-release.py` 所在目录下双击运行
