@@ -1,0 +1,37 @@
+# 作业板
+![](ReadMeImages/img.png)
+项目地址[点我跳转](https://github.com/EnderWolf006/HomeworkBoard)
+
+## 食用说明
+以下为在Windows系统(Windows Server)下的快速使用方法
+本项目使用难度可能略高，如有疑问可通过邮箱联系作者 `Enderwolf006@gmail.com`
+
+#### 准备文件
+- 下载右侧Releases中Latest版本的四个文件 `install Flask.cmd``startClient.cmd``StartSchool.cmd``start-APIServer.cmd` 
+
+#### 准备工作
+
+- 你需要准备一台学校内网或公网的Windows电脑/服务器
+- 在服务器上安装Python3.8及以上版本 [点我下载](https://mirrors.aliyun.com/python-release/windows/python-3.8.9.exe)，安装时请勾选“添加 Python 到环境变量”(Add Python To Path)
+- 安装好Python后，双击运行下载好的的 `install Flask.cmd`文件
+
+#### 部署服务端
+将下载的`startClient.cmd``StartSchool.cmd` 移动到目录下
+- 将`startClient.cmd`移动到 `SchoolProject-release` 所在目录下双击运行
+- 将`StartSchool.cmd`移动到 `ClientProject-release` 所在目录下双击运行
+- 将`start-APIServer.cmd`移动到 `APIServer-release.py` 所在目录下双击运行
+
+#### 使用客户端
+- 学校作业板: 浏览器访问 `http://localhost:17313`(若不在本地部署, 请将localhost换成服务器ip或域名)
+- 查作业界面: 浏览器访问 `http://localhost:17314`(若不在本地部署, 请将localhost换成服务器ip或域名)
+
+## 开源协议
+
+本软件遵循 `GPLv3` 开源协议，以下为该协议内容解读摘要:
+
+* 可自由复制 你可以将软件复制到你的电脑，你客户的电脑，或者任何地方。复制份数没有任何限制
+* 可自由分发 在你的网站提供下载，拷贝到U盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。
+* 可以用来盈利 你可以在分发软件的时候收费，但你必须在收费前向你的客户提供该软件的 GNU GPL 许可协议，以便让他们知道，他们可以从别的渠道免费得到这份软件，以及你收费的理由。
+* 可自由修改 如果你想添加或删除某个功能，没问题，如果你想在别的项目中使用部分代码，也没问题，唯一的要求是，使用了这段代码的项目也必须使用 GPL 协议。
+* 如果有人和接收者签了合同性质的东西，并提供责任承诺，则授权人和作者不受此责任连带。
+
